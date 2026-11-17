@@ -3,12 +3,12 @@ name = "SigmaOS-cinnamon-settings-daemon"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "cinnamon-settings-daemon component"
+description = "Part of SigmaOS multi-repository architecture."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
